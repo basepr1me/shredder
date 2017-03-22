@@ -2,7 +2,7 @@
 clear
 printf "\nThis script must be run with elevated privileges. It will fail otherwise!"
 printf "\n\nTo shred an attached hard drive, enter full /dev path."
-printf "\n\nThe uuid and pv packages must be installed to use this script"
+printf "\n\nThe openssl and pv packages must be installed to use this script"
 printf "\n\nWhich device would you like to shred?: "
 
 read devPath
